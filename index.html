@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="_css/estilo.css" />
+  </head>
+  <body>
+    <div class="cores">
+      <table>
+        <tr>
+          <td><label for="range_r">(R) - Vermelho:</label></td>
+          <td>
+            <input
+              type="range"
+              id="range_r"
+              name="range_r"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </td>
+          <td>
+            <input
+              type="text"
+              id="text_r"
+              name="text_r"
+              disabled="disabled"
+              value=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="range_g">(G) - Verde:</label></td>
+          <td>
+            <input
+              type="range"
+              id="range_g"
+              name="range_g"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </td>
+          <td>
+            <input type="text" id="text_g" name="text_g" disabled="disabled" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="range_b">(B) - Azul:</label></td>
+          <td>
+            <input
+              type="range"
+              id="range_b"
+              name="range_b"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </td>
+          <td>
+            <input type="text" id="text_b" name="text_b" disabled="disabled" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="imagem"></div>
+    <script type="text/javascript" src="_js/scripts.js"></script>
+  </body>
+</html>

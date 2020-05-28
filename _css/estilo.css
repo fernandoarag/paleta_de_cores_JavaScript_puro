@@ -1,0 +1,21 @@
+.cores {
+  position: relative;
+  float: center;
+}
+
+#imagem {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 100px;
+}
+
+div table tr td label {
+  font-weight: bold;
+}
+
+div table tr td input[type='text'] {
+  font-weight: bold;
+  width: 50px;
+}
